@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-11T17:02:51 IST" name="Default suite" finished-at="2022-11-11T17:05:59 IST" duration-ms="187500">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginTest.validLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.johndeere.test.LoginTest@51e69659]" name="validLoginTest" class="com.johndeere.test.LoginTest"/>
+      </group> <!-- smoke -->
+      <group name="login">
+        <method signature="LoginTest.validLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.johndeere.test.LoginTest@51e69659]" name="validLoginTest" class="com.johndeere.test.LoginTest"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2022-11-11T17:02:51 IST" name="Default test" finished-at="2022-11-11T17:05:59 IST" duration-ms="187500">
+      <class name="com.johndeere.test.LoginTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.johndeere.test.LoginTest@51e69659]" started-at="2022-11-11T17:02:48 IST" name="init" finished-at="2022-11-11T17:02:51 IST" duration-ms="2955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.johndeere.test.LoginTest@51e69659]" started-at="2022-11-11T17:03:09 IST" name="setup" finished-at="2022-11-11T17:03:20 IST" duration-ms="10529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.johndeere.test.LoginTest.validLoginTest(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.johndeere.test.LoginTest@51e69659]" started-at="2022-11-11T17:03:20 IST" name="validLoginTest" data-provider="commonDataProvider" finished-at="2022-11-11T17:05:33 IST" duration-ms="133205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.johndeere.test.LoginTest@51e69659]" started-at="2022-11-11T17:05:33 IST" name="teardown" finished-at="2022-11-11T17:05:37 IST" duration-ms="4267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=LoginTest.validLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.johndeere.test.LoginTest@51e69659] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.johndeere.test.LoginTest@51e69659]" started-at="2022-11-11T17:05:37 IST" name="setup" finished-at="2022-11-11T17:05:47 IST" duration-ms="9670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.johndeere.test.LoginTest.validLoginTest(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.johndeere.test.LoginTest@51e69659]" started-at="2022-11-11T17:05:47 IST" name="validLoginTest" data-provider="commonDataProvider" finished-at="2022-11-11T17:05:56 IST" duration-ms="9391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.johndeere.test.LoginTest@51e69659]" started-at="2022-11-11T17:05:56 IST" name="teardown" finished-at="2022-11-11T17:05:59 IST" duration-ms="2395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=LoginTest.validLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.johndeere.test.LoginTest@51e69659] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.johndeere.test.LoginTest@51e69659]" started-at="2022-11-11T17:05:59 IST" name="end" finished-at="2022-11-11T17:06:06 IST" duration-ms="7544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.johndeere.test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
