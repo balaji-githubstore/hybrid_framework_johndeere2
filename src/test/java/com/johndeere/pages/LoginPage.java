@@ -6,7 +6,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+/*
+ * Handles all the element in the login page
+ */
 public class LoginPage {
 
 	private By usernameLocator = By.name("username");
