@@ -7,7 +7,7 @@
 		</run>
 	</groups>
 	<test thread-count="5" name="Login Test Edge">
-		<parameter name="browser" value="edge"></parameter>
+		<parameter name="browser" value="ch"></parameter>
 		<classes>
 			<class name="com.johndeere.test.LoginUITest" />
 			<class name="com.johndeere.test.LoginTest" />
